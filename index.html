@@ -1,22 +1,40 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
 		<title>fiberoopstics</title>
 		<!-- link to main stylesheet -->
-		<link rel="stylesheet" type="text/css" href="/css/main.css">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
 	</head>
 	<body>
-			<img src="media/00.png" height="50%" width="50%" align="right" />
-		</div>
-		<br>
+		<div id="imagecontainer">
+			<img src="media/00.png" height="50%" width="50%" align="right"/>
+			<img src="media/text1.svg" height="45%" width="45%" />
+			<br>
+			<br>
+			<br>
+			<br>
+			<img src="media/text2.svg" height="50%" width="50%" align="right"/>
+						<img src="media/text4.svg" height="45%"" width="45%" align= "right"/>
+
+			<img src="media/CIRCLETEST.svg" height="30%" width="30%" align="right"/>
+			<img src="media/text6.svg" height="70%" width="70%" />
 			<img src="media/01.png" height="30%" width="30%"/>
-		<br>
-			<img src="media/02.png" height="35%" width="35%" align="right"/>
-		<br>
-			<img src="media/03.png" height="30%" width="30%"/>
-			<img src="media/04.png" height="40%" width="40%"/>
-			<img src="media/05.png" height="40%" width="40%"/>
-			<img src="media/06.png" height="30%" width="30%"/>
-			<img src="media/07.png" height="40%" width="40%"/>
+
+			
+			<video width="350" height="530" autoplay loop>
+				<source src="media/fiberoopstics_mute.mp4" type="video/mp4">
+			</video>
+			
+			<img src="media/02.png" height="35%" width="35%" align="right" class="draggable"/>
+			<img src="media/03.png" height="30%" width="30%" class="draggable"/>
+			<img src="media/04.png" height="40%" width="40%" class="draggable"/>
+			<img src="media/05.png" height="40%" width="40%" class="draggable"/>
+			<img src="media/06.png" height="30%" width="30%" class="draggable"/>
+			<img src="media/07.png" height="40%" width="40%" class="draggable"/>
+		</div>
+		<script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+		<script src="http://code.jquery.com/ui/1.8.21/jquery-ui.min.js"></script>
+		<script>$('.draggable').draggable();</script>
+		<script src="jquery.ui.touch-punch.min.js"></script>
 	</body>
 	</html>
