@@ -1,8 +1,54 @@
 body {
     background-color: #f8d3c4;
+    cursor: progress;
 
 }
     
+.title{
+    padding-left: 4em;
+}
+    
 #imagecontainer{
-    padding: 5em;
+    padding-top: 5em;
+    padding-left: 5em;
+    padding-right: 5em;
+}
+.text1{
+    padding-top: 3em;
+    padding-left: 3em;
+}
+.text2{
+    padding-right: 5em;
+
+    padding-top: 20em;
+}
+.text3{
+    padding-left: 6em;
+}
+.image1{
+    padding-top: 5em;
+    padding-left: 2em;
+    padding-right: 1em;
+}
+
+.expression{
+    padding-right: 7em;
+}
+
+.callout{ 
+    padding-left: 6em;
+    padding-top: 2em;
+}
+.collection{
+    padding-top: 1em;
+    padding-left: 15em;
+}
+#imagegallery{
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.ongoing{
+    padding-left: 22em;
+    padding-top: 1em;
 }
